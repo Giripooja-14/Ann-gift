@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hema Priya 💙</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{
+background:black;
+color:white;
+overflow:hidden;
+}
+
+/* Cinematic Intro */
+#intro{
+position:fixed;
+top:0;left:0;
+width:100%;height:100%;
+background:black;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+animation:fadeIn 2s ease;
+}
+
+#intro h1{
+font-size:28px;
+letter-spacing:3px;
+animation:glow 2s infinite alternate;
+}
+
+@keyframes glow{
+from{text-shadow:0 0 10px #00c6ff;}
+to{text-shadow:0 0 25px #00c6ff;}
+}
+
+@keyframes fadeIn{
+from{opacity:0;}
+to{opacity:1;}
+}
+
+.enter-btn{
+margin-top:30px;
+padding:12px 25px;
+border:none;
+border-radius:30px;
+background:#00c6ff;
+color:white;
+cursor:pointer;
+}
+
+/* Main Website */
+#main{
+display:none;
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+min-height:100vh;
+overflow-x:hidden;
+text-align:center;
+padding:30px;
+}
+
+.photo{
+width:140px;
+height:140px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid white;
+box-shadow:0 0 30px #00c6ff;
+margin-bottom:15px;
+}
+
+.gallery{
+display:flex;
+overflow-x:auto;
+gap:15px;
+margin-top:20px;
+padding:10px;
+}
+
+.gallery img{
+width:220px;
+height:300px;
+border-radius:15px;
+object-fit:cover;
+box-shadow:0 0 15px #00c6ff;
+}
+
+/* Floating Hearts */
+.heart{
+position:fixed;
+bottom:-20px;
+color:#00c6ff;
+animation:float 6s linear infinite;
+}
+@keyframes float{
+from{transform:translateY(0);opacity:1;}
+to{transform:translateY(-110vh);opacity:0;}
+}
+
+/* Fireworks */
+.firework{
+position:fixed;
+width:6px;
+height:6px;
+background:white;
+border-radius:50%;
+animation:explode 1s ease-out forwards;
+}
+@keyframes explode{
+0%{transform:scale(1);opacity:1;}
+100%{transform:scale(20);opacity:0;}
+}
+
+/* Password Box */
+#passwordBox{
+margin-top:20px;
+}
+
+input{
+padding:8px;
+border-radius:10px;
+border:none;
+outline:none;
+}
+
+button{
+padding:8px 15px;
+border:none;
+border-radius:15px;
+background:#00c6ff;
+color:white;
+cursor:pointer;
+margin-left:5px;
+}
+
+/* Love Letter */
+#letter{
+display:none;
+position:fixed;
+top:0;left:0;
+width:100%;height:100%;
+background:linear-gradient(135deg,#1e3c72,#2a5298);
+padding:40px;
+text-align:center;
+}
+
+.letter-box{
+background:rgba(255,255,255,0.15);
+padding:25px;
+border-radius:20px;
+max-width:400px;
+margin:auto;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Intro Screen -->
+<div id="intro">
+<h1>For My Love💝</h1>
+<p>A Special Surprise From Your Hubby🫂</p>
+<button class="enter-btn" onclick="enterSite()">Enter 💫</button>
+</div>
+
+<!-- Main Website -->
+<div id="main">
+
+<img src="C:\Users\Giri\Downloads\hp2.jpg.heic" class="photo">
+<h2>Happy Anniversary My Love 💞</h2>
+<p>You are my forever happiness ✨</p>
+
+<div id="passwordBox">
+<p>Enter Secret Password 🔐</p>
+<input type="password" id="passInput" placeholder="Enter password">
+<button onclick="checkPassword()">Unlock</button>
+</div>
+
+<!-- Memory Gallery -->
+<div class="gallery">
+<img src="C:\Users\Giri\Downloads\hp1.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp3.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp13.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp5.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp6.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp7.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp8.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp9.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp10.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp11.jpg.jpeg">
+<img src="C:\Users\Giri\Downloads\hp12.jpg.jpeg">
+</div>
+
+</div>
+
+<!-- Love Letter -->
+<div id="letter">
+<div class="letter-box">
+<h2>My Love Letter 💙</h2>
+<p>
+Hema Priya,<br><br>
+Happy Anniversary, My Love 💙
+Every memory with you is priceless🩵.  
+You are my strength, my peace, my everything♾️.  
+No matter what happens, I will always stand beside you.🫂
+Loving you is not just a feeling, it’s a promise I make every day😍.
+Through happiness and challenges, my heart chooses you again and again🫀.
+Thank you for being my calm in chaos and my light in darkness🌕.
+With you, forever doesn’t feel long enough.
+One year down, forever to go 🥰
+You are my always, my constant, my everything🧡.
+I’m proud to love you💛.
+Like the endless blue sky, my love for you has no limits🩵.
+You are the calm ocean to my restless heart😻.
+With you, life feels peaceful and complete.
+Today we celebrate our love, but I celebrate you every single day.
+And Needhana Enkellame En Chella Magale🤗.<br><br>
+Forever yours,<br>
+Hubby💕
+</p>
+<br>
+<button onclick="closeLetter()">Close💜</button>
+</div>
+</div>
+
+<audio id="bgMusic" loop>
+<source src="vazhithunaiyae.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+
+/* Enter Site */
+function enterSite(){
+document.getElementById("intro").style.display="none";
+document.getElementById("main").style.display="block";
+startHearts();
+}
+
+/* Floating Hearts */
+function startHearts(){
+setInterval(()=>{
+const heart=document.createElement("div");
+heart.classList.add("heart");
+heart.innerHTML="💗";
+heart.style.left=Math.random()*100+"vw";
+heart.style.fontSize=Math.random()*20+15+"px";
+document.body.appendChild(heart);
+setTimeout(()=>{heart.remove();},6000);
+},300);
+}
+
+/* Password Check */
+function checkPassword(){
+const correctPassword="03042025";  // You can change this
+const userInput=document.getElementById("passInput").value;
+
+if(userInput===correctPassword){
+launchFireworks();
+document.getElementById("bgMusic").play();
+setTimeout(()=>{
+document.getElementById("letter").style.display="block";
+},800);
+}else{
+alert("Wrong password 💔 Try again");
+}
+}
+
+/* Fireworks */
+function launchFireworks(){
+for(let i=0;i<30;i++){
+const fw=document.createElement("div");
+fw.classList.add("firework");
+fw.style.left=Math.random()*100+"vw";
+fw.style.top=Math.random()*100+"vh";
+document.body.appendChild(fw);
+setTimeout(()=>{fw.remove();},1000);
+}
+}
+
+/* Close Letter */
+function closeLetter(){
+document.getElementById("letter").style.display="none";
+}
+
+</script>
+
+</body>
+</html>
